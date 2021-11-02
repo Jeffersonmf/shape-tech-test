@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/jeffersonmarchetti/dev/scala/shape-tech-test/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExtractLogException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$Equipment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parserEngine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SparkSessionWrapper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dataEngineerShapeTestApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	environment.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dataEngineerShapeTestApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parserEngine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$Equipment$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$Sensor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$FailureLog$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$RequestLogResult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	environment$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$RequestLogResult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ParserException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExtractLogException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$FailureLog.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transformData$Sensor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/jeffersonmarchetti/dev/scala/shape-tech-test/target/scala-2.12/classes.bak[0m
