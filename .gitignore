@@ -64,6 +64,8 @@ jitwatch.out
 
 /target
 /target/*
+./datalake
+./datalake/*
 
 .DS_Store
 
