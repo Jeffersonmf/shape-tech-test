@@ -19,7 +19,6 @@ You are provided 3 files: the log file named “equipment_failure_sensors.log”
 To solve this problem, we expect you to answer a few questions related to January 2020 (considering GMT time zone):
 
 
-
 1 – Total equipment failures that happened?
 
 2 – Which equipment code had most failures?
@@ -28,15 +27,7 @@ To solve this problem, we expect you to answer a few questions related to Januar
 
 ---
 
-
-    ```
-	URL: hoohoo.ncsa.uiuc.edu  QTDE: 251
-	URL: piweba3y.prodigy.com  QTDE: 157
-	URL: jbiagioni.npt.nuwc.navy.mil  QTDE: 132
-	URL: piweba1y.prodigy.com  QTDE: 114
-	URL: www-d4.proxy.aol.com  QTDE: 91
-	```
-
+![](architecture.png)
 
 
 ## Requisitos mínimos
@@ -59,22 +50,8 @@ $ sbt clean package
 
 $ sbt run
 
-$ sbt test for the unit tests
-```
-
-# Instruções de como testar a solução localmente
-
-```
-[ssh]
-$ git clone git@github.com:Jeffersonmf/teste-nasa-logs.git
-
-[https]
-$ git clone https://github.com/Jeffersonmf/teste-nasa-logs.git
-
-$ sbt clean package
-
-$ sbt run
-
+$ sbt test 
+//for execute the unit tests
 ```
 
 ## Como utilizar as API's
@@ -85,9 +62,12 @@ Method: Get
 http://localhost:9000/healthCheck
 ```
 
-**Realiza o processamento dos logs com a necessidade copiar os arquivos de Logs na pasta de entrada. "É necessário COPIAR os arquivos para a pasta de entrada. A Pasta pode ser configurada no arquivo application.conf [SourceLocalFolder]", tendo o valor default ./inputdata**
+**Realiza o processamento dos logs.
+"Através dessa API, serão realizados todos os processamentos e analise com base na criação do Zero de um mini DataLake no Formato Parquet, através da utilização do Spark.
+
+Em data_input estão localizados os arquivos de origem.
+Em datalake será criado o Datalake e seus devidos particionamentos.
 ```
 Method: Get
 http://localhost:9000/
 ```
-
