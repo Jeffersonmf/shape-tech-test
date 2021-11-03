@@ -20,10 +20,39 @@ To solve this problem, we expect you to answer a few questions related to Januar
 
 
 1 – Total equipment failures that happened?
+```
+/--------------------------------------------------/
+|Equipment ID          |             Count Failures|
+| 3                    |              1377         |
+|--------------------------------------------------|
+|Total of Log Analized: 11645    Only January 2020 |
+/--------------------------------------------------/
+The Entire Log File has been 36979 Registries
+```
 
 2 – Which equipment code had most failures?
+```
+/--------------------------------------------------/
+|Equipment ID          |             Code          |
+| 3                    |              E1AD07D4     |
+/--------------------------------------------------/
+```
 
 3 – Average amount of failures across equipment group, ordered by the number of failures in ascending order?
+```
+/----------------------------------------------------------------------------------------------/
+|Equipment ID          |             Serial ID  |            Code     |        Group Name      |
+/----------------------------------------------------------------------------------------------/
+| 8                    |              2         |             86083278|         NQWPA8D3       |
+| 8                    |              7         |             86083278|         NQWPA8D3       |
+| 8                    |              19        |             86083278|         NQWPA8D3       |
+| 8                    |              26        |             86083278|         NQWPA8D3       |
+| 8                    |              30        |             86083278|         NQWPA8D3       |
+| 8                    |              57        |             86083278|         NQWPA8D3       |
+| 8                    |              69        |             86083278|         NQWPA8D3       |
+| 8                    |              75        |             86083278|         NQWPA8D3       |
+/----------------------------------------------------------------------------------------------/
+```
 
 ---
 
