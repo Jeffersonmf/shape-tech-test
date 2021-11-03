@@ -67,6 +67,10 @@ jitwatch.out
 ./datalake
 ./datalake/*
 
+datalake/equipment_failure_sensors/
+datalake/equipment_sensors/
+datalake/equipments/
+
 .DS_Store
 
 # metals
