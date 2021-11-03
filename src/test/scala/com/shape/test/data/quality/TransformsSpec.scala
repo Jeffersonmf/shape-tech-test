@@ -1,6 +1,5 @@
 package com.shape.test.data.quality
 
-import org.scalatest.FunSpec
 import org.apache.spark.sql.functions._
 import com.github.mrpowers.spark.fast.tests.DataFrameComparer
 import org.apache.spark.sql.types.{StringType, StructField, StructType}

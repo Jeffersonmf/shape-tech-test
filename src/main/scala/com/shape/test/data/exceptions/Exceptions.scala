@@ -6,6 +6,6 @@ class ParserException(errorDetails: String) extends Exception {
     errorDetails))
 }
 
-final case class ExtractLogException(private val message: String = "", private val cause: Throwable = None.orNull)
+final case class ExtractLogException(private val message: String = "An Unexpected Error occurred on trying to load the data from logs", private val cause: Throwable = None.orNull)
   extends Exception(message, cause)
 

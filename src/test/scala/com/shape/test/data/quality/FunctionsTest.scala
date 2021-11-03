@@ -5,7 +5,6 @@ import com.amazon.deequ.{VerificationResult, VerificationSuite}
 import com.amazon.deequ.checks.{Check, CheckLevel}
 import com.amazon.deequ.constraints.ConstrainableDataTypes
 import com.amazon.deequ.suggestions.{ConstraintSuggestionRunner, Rules}
-import org.scalatest.FunSpec
 import org.apache.spark.sql.functions._
 import com.github.mrpowers.spark.fast.tests.ColumnComparer
 import org.apache.spark.sql.types.{StringType, StructField, StructType}
