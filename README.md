@@ -59,9 +59,9 @@ The Entire Log File has been 36979 Registries
 ![](architecture.png)
 
 
-## Requisitos mínimos
+## Minimal Requirements
 
-Tecnologia | Versão
+Technology | Version
 ------- | --------
 Java | 11
 Scala | 2.12.x
@@ -70,7 +70,7 @@ SBT | 1.4.9
 Docker   | Lastest
 
 
-# Instruções de como testar a solução
+# Instructions on how to test the solution
 
 ```
 $ git clone git@github.com:Jeffersonmf/shape-tech-test.git
@@ -83,19 +83,19 @@ $ sbt test
 //for execute the unit tests
 ```
 
-## Como utilizar as API's
+## How to use API's
 
-**Testando se a solução está disponível**
+**Testing if the solution is available**
 ```
 Method: Get
 http://localhost:9000/healthCheck
 ```
 
-**Realiza o processamento dos logs.
-"Através dessa API, serão realizados todos os processamentos e analise com base na criação do Zero de um mini DataLake no Formato Parquet, através da utilização do Spark.
+**Performs log processing.
+"Through this API, all processing and analysis will be performed based on the creation of a mini DataLake in Parquet Format, using Spark.
 
-Em data_input estão localizados os arquivos de origem.
-Em datalake será criado o Datalake e seus devidos particionamentos.
+In data_input the source files are located.
+In datalake will be created the Datalake and its proper partitioning.
 ```
 Method: Get
 http://localhost:9000/

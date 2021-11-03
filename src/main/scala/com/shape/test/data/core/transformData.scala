@@ -24,8 +24,6 @@ object transformData extends SparkSessionWrapper {
     StructField("code", StringType, true),
     StructField("group_name", StringType, true)))
 
-  case class RequestLogResult(totalRegistros: Long, qtdeHost: Long, qtdeRequests404: Long, cincoTopUrlErros: Array[(String, Long)], qtdeErroPorDia: Array[(String, Long)], qtdeBytes: Long, status: Boolean)
-
   def equipmentCharger(): Unit = {
     spark.read
       .schema(equipmentSchema)
